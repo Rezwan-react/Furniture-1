@@ -1,0 +1,524 @@
+/* --------------------------------------------------------- font link css part stert ----------------------------------------------------  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* --------------------------------------------------------- font link css part end ------------------------------------------------------- */
+/* --------------------------------------------------------- common css part stert ----------------------------------------------------  */
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --Montserrat: "Montserrat", sans-serif;
+}
+
+/* --------------------------------------------------------- common css part end ------------------------------------------------------- */
+/* --------------------------------------------------------- menu css part stert ----------------------------------------------------  */
+.main {
+    padding: 43px 38px;
+    background: #fff !important;
+
+}
+
+.main ul {
+    display: flex;
+    gap: 73px;
+}
+
+.main ul li a {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: var(--Montserrat);
+    color: #333333 !important;
+    transition: all linear .3s;
+}
+
+.main ul li a:hover {
+    background: #054C73;
+    color: #ffee10 !important;
+    text-shadow: 1px 1px 0 lighten(bg, 15%), 2px 2px 0 lighten($bg, 10%), 3px 3px 0 lighten($bg, 5%);
+    transform: translate(-3px, -3px);
+}
+
+/* --------------------------------------------------------- menu css part end ------------------------------------------------------- */
+/* --------------------------------------------------------- banner css part stert ----------------------------------------------------  */
+#banner {
+    background: url(../img/banner_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 155px;
+    padding-bottom: 151px;  
+}
+
+.banner_card {
+    display: flex;
+    justify-content: end;
+}
+
+.banner_haed {
+    width: 643px;
+    background: #DFE9F4;
+    border-radius: 10px;
+}
+
+.banner_haed h1 {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--Montserrat);
+    color: #333333;
+    letter-spacing: 3px;
+    padding-top: 37px;
+    padding-left: 39px;
+}
+
+.banner_haed h2 {
+    width: 421px;
+    font-size: 52px;
+    font-weight: 700;
+    font-family: var(--Montserrat);
+    color: #054C73;
+    padding-top: 20px;
+    padding-left: 39px;
+    padding-bottom: 20px;
+}
+
+.banner_haed p {
+    width: 546px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #333333;
+    line-height: 39px;
+    padding-top: 30px;
+    padding-left: 39px;
+}
+
+.banner_button a {
+    padding: 25px 72px;
+    background: #054C73;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--Montserrat);
+    color: #fff;
+    text-transform: uppercase;
+    transition: all linear .3s;
+}
+
+.banner_button a:hover {
+    color: #000;
+    box-shadow: inset 229px 0 0 0 #fff;
+}
+
+.banner_button {
+    padding-top: 30px;
+    padding-left: 39px;
+    padding-bottom: 41px;
+}
+
+.banner_text {
+    display: flex;
+    gap: 3px;
+    margin-top: 46px;
+}
+
+.banner_text .text h2 {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: var(--Montserrat);
+    color: #333333;
+}
+
+.banner_text .text p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--Montserrat);
+    color: #333333;
+}
+
+/* --------------------------------------------------------- banner css part end ------------------------------------------------------- */
+/* --------------------------------------------------------- free css part stert ----------------------------------------------------  */
+#free {
+
+    background: #F2F5FF;
+}
+
+.one img {
+    width: 82px;
+}
+
+.two img {
+    width: 80px;
+}
+
+.three img {
+    width: 73px;
+}
+
+.free_img {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 46px;
+    padding-bottom: 49px;
+}
+
+.free_text h2 {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: var(--Montserrat);
+    color: #333333;
+}
+
+.free_text p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--Montserrat);
+    color: #333333;
+    margin-top: 6px;
+}
+
+/* --------------------------------------------------------- free css part end ------------------------------------------------------- */
+/* --------------------------------------------------------- Collection css part stert ----------------------------------------------------  */
+
+
+.collection_text h2 {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: var(--Montserrat);
+    color: #333333;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.collection_text p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--Montserrat);
+    color: #666666;
+    text-align: center;
+}
+
+.collection_img img {
+    width: 355px;
+    margin-top: 87px;
+    transition: all linear .3s;
+}
+.collection_img img:hover{
+    margin-top: 0;
+}
+
+
+/* --------------------------------------------------------- Collection css part end ------------------------------------------------------- */
+/* --------------------------------------------------------- Beautify css part stert ----------------------------------------------------  */
+#beautify {
+    padding: 55px;
+    background: #F2F5FF;
+    overflow: hidden;
+    margin-top: 66px;
+}
+
+.beautify_text h2 {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: var(--Montserrat);
+    color: #000;
+    margin-top: 295px;
+    margin-bottom: 20px;
+}
+
+.beautify_text p {
+    width: 489px;
+    font-family: var(--Montserrat);
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+    line-height: 39px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.beautify_text a {
+    padding: 24px 57px;
+    border-radius: 68px;
+    background: #054C73;
+    font-size: 16px;
+    font-family: var(--Montserrat);
+    font-weight: 700;
+    color: #fff;
+    margin-top: 30px;
+    transition: all linear .3s;
+}
+
+.beautify_text a:hover {
+    color: #ffee10;
+    box-shadow: 0 0 5px #ffee10;
+    text-shadow: 0 0 5px #ffee10;
+    border: 2px solid #ffee10;
+    background: black;
+}
+
+.beautifyImg img {
+    width: 500px;
+    height: 754px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 60px;
+}
+
+/* --------------------------------------------------------- Beautify css part end ------------------------------------------------------- */
+/* --------------------------------------------------------- Browse css part stert ----------------------------------------------------  */
+.browse_text h2 {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: var(--Montserrat);
+    color: #333333;
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 20px;
+}
+
+.browse_text p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--Montserrat);
+    color: #666666;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.browse_img img {
+    width: 381px;
+}
+
+.browse_img a {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: var(--Montserrat);
+    color: #333333;
+    margin-top: 30px;
+    text-align: center;
+    display: block;
+
+}
+
+/* --------------------------------------------------------- Browse css part end ------------------------------------------------------- */
+/* --------------------------------------------------------- Works css part stert ----------------------------------------------------  */
+.works_text h2 {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: var(--Montserrat);
+    color: #333333;
+    text-align: center;
+    margin-top: 121px;
+    margin-bottom: 20px;
+}
+
+.works_text p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--Montserrat);
+    color: #666666;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.works_img img {
+    width: 381px;
+}
+
+.works_img h2 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--Montserrat);
+    color: #333333;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.works_img p {
+    width: 381px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--Montserrat);
+    color: #666666;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* --------------------------------------------------------- Works css part end ------------------------------------------------------- */
+/* --------------------------------------------------------- Join css part stert ----------------------------------------------------  */
+#join {
+    background: #F2F5FF;
+    margin-top: 198px;
+}
+
+.join_text h2 {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: var(--Montserrat);
+    color: #333333;
+    margin-top: 59px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.join_text p {
+    width: 514px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--Montserrat);
+    color: #666666;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.join_input {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 61px;
+}
+
+.join_input input {
+    padding: 25px 133px 25px 25px;
+}
+
+.join_input input ::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--Montserrat);
+    color: #011C42;
+}
+
+.join_input {
+    display: flex;
+    justify-content: center;
+}
+
+.join_input button {
+    padding: 26px 42px;
+    background: #054C73;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--Montserrat);
+    color: #fff;
+    transition: all linear .3s;
+}
+
+.join_input button:hover {
+    color: yellow;
+    border-radius: 50px;
+    border-color: #494949;
+
+}
+
+/* --------------------------------------------------------- Join css part end ------------------------------------------------------- */
+/* --------------------------------------------------------- footer css part stert ----------------------------------------------------  */
+footer {
+    padding-top: 49px;
+    background: #03344F;
+    padding-bottom: 127px;
+}
+
+.footer_card {
+    display: flex;
+    gap: 269px;
+}
+
+.footer_card h3 {
+    font-family: var(--Montserrat);
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+}
+
+.footer_card h4,
+.bottom_card h3 {
+    font-family: var(--Montserrat);
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+}
+
+.bottom_card p {
+    width: 400px;
+    font-family: var(--Montserrat);
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    line-height: 39px;
+    margin-top: 34px;
+    margin-bottom: 21px;
+}
+
+.bottom_card a {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--Montserrat);
+    color: #fff;
+}
+
+.bottom_card a:hover {
+    color: #ffee10;
+    box-shadow: 0 0 5px #ffee10;
+    text-shadow: 0 0 5px #ffee10;
+}
+
+.footer_content {
+    margin-left: 25px;
+    margin-top: 34px;
+    border-radius: 2px;
+}
+
+.footer_img {
+    width: 175px;
+    height: 185px;
+    background: url(../img/IG-1.jpg);
+    margin-left: 90px;
+}
+
+.footer_img_one {
+    width: 175px;
+    height: 185px;
+    background: url(../img/IG-2.jpg);
+}
+
+.footer_img_two {
+    width: 175px;
+    height: 185px;
+    background: url(../img/IG-3.jpg);
+}
+
+.footer_img_three {
+    width: 175px;
+    height: 185px;
+    background: url(../img/IG-4.jpg);
+}
+
+/* --------------------------------------------------------- footer css part end ------------------------------------------------------- */
